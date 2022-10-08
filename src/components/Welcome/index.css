@@ -1,0 +1,67 @@
+/* Write your CSS here */
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #1e293b;
+  justify-content: center;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  font-family: Bree Serif;
+  color: #f0bb03;
+  margin: 10px;
+}
+.sub-info {
+  font-size: large;
+  font-family: Bree Serif;
+  color: #ffffff;
+  margin: 10px;
+}
+.button {
+  background-color: #ffffff;
+  color: #1e293b;
+  font-family: Bree Serif;
+  padding: 10px;
+  border: 0px;
+  border-radius: 8px;
+  margin: 15px;
+}
+@media screen and (min-width: 768px) {
+  .content-container {
+    padding: 15px;
+  }
+  .heading {
+    font-size: 40px;
+  }
+  .sub-info {
+    font-size: 25px;
+  }
+  .button {
+    font-size: large;
+    padding: 15px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .content-container {
+    padding: 20px;
+  }
+  .heading {
+    font-size: 50px;
+  }
+  .sub-info {
+    font-size: 30px;
+  }
+  .button {
+    font-size: x-large;
+    padding: 20px;
+  }
+}
